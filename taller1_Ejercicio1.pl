@@ -1,4 +1,4 @@
-% ---------- Hechos (relaciones directas) ----------
+% Hechos (relaciones directas)
 padre(abraham, herbert).
 padre(abraham, homero).
 padre(clancy, marge).
@@ -17,7 +17,7 @@ madre(marge, lisa).
 madre(marge, maggie).
 madre(selma, ling).
 
-% ---------- Reglas ----------
+%  Reglas 
 progenitor(X, Y) :- padre(X, Y).
 progenitor(X, Y) :- madre(X, Y).
 
